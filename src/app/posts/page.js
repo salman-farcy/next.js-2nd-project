@@ -1,4 +1,5 @@
-import React from 'react';
+import Link from 'next/link';
+
 
 const page = async () => {
 
@@ -19,8 +20,11 @@ const page = async () => {
                               <div className="card-body">
                                    <h2 className="card-title">{post.title}</h2>
                                    <p>{post.description}</p>
+                                   <p>{post.likes_count}</p>
                                    <div className="card-actions justify-end">
-                                       <p>{post.likes_count}</p>
+                                        <Link href={`/posts/${post.id}`}>
+                                             <button className="btn btn-primary">Buy Now</button>
+                                        </Link>
                                    </div>
                               </div>
                          </div>)
