@@ -3,9 +3,7 @@ import React from 'react';
 const page = async () => {
 
      const res = await fetch("http://localhost:5000/posts", {
-          next: {
-               revalidate: 1,
-          },
+          cache: "no-store",
      });
      const posts = await res.json();
 
