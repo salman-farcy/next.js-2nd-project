@@ -2,15 +2,15 @@
      "posts": [
           {
             "id": 1,
-            "title": "Unveiling the Secrets of the Universe",
+            "title": "Unveiling the Secrets of the Universe salman",
             "description": "Have you ever gazed at the stars and wondered what lies beyond? Join me on a journey through the cosmos, exploring the latest discoveries in astronomy and unlocking the mysteries of the universe. Buckle up, space adventurers!",
-            "likes_count": 1280
+            "likes_count": 1340
           },
           {
             "id": 2,
             "title": "The Power of Artificial Intelligence: Friend or Foe?",
             "description": "Artificial intelligence (AI) is rapidly evolving, transforming our world in profound ways. But what does the future hold? Will AI become our companion or our competitor? Let's delve into the ethical and societal implications of AI, and imagine its potential for good and its possible risks.",
-            "likes_count": 5678
+            "likes_count": 1200
           },
           {
             "id": 3,
