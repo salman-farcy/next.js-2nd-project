@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import styles from "./Posts.module.css"
 
 const page = async () => {
 
@@ -13,7 +13,7 @@ const page = async () => {
 
      return (
           <div>
-               <h1>Total Post: {posts.length} </h1>
+               <h1 className={styles.header_text}>Total Post: {posts.length} </h1>
                <div className="flex gap-3">
                     {
                          posts.map(post => <div key={post.id} className="card flex  bg-gray-400 shadow-xl">
