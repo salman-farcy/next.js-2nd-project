@@ -23,7 +23,7 @@ const page = async () => {
                                    <p>{post.likes_count}</p>
                                    <div className="card-actions justify-end">
                                         <Link href={`/posts/${post.id}`}>
-                                             <button className="btn btn-primary">Buy Now</button>
+                                             <button className="btn btn-primary">See More</button>
                                         </Link>
                                    </div>
                               </div>
